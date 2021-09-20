@@ -1,11 +1,4 @@
-@media (max-width:1440px){
-}
-@media (max-width:960px){
-}
-@media (max-width:767px){
-}
-@media (max-width:360px){
-}
+
 * {
 	box-sizing: border-box;
 }
@@ -14,26 +7,26 @@
 	src: url("../fonts/CeraPro-Regular.woff"); 
 	
 	}
-	@font-face {font-family: "Cera bold"; 
-		src: url("../fonts/CeraPro-Bold.woff"); 
+@font-face {font-family: "Cera bold"; 
+	src: url("../fonts/CeraPro-Bold.woff"); 
 		
-		}
+	}
 
 
-/* Указываем box sizing */
+
 *,
 *::before,
 *::after {
   box-sizing: border-box;
 }
 
-/* Убираем внутренние отступы */
+
 ul[class],
 ol[class] {
   padding: 0;
 }
 
-/* Убираем внешние отступы */
+
 body,
 h1,
 h2,
@@ -51,7 +44,7 @@ dd {
   margin: 0;
 }
 
-/* Выставляем основные настройки по-умолчанию для body */
+
 body {
   min-height: 100vh;
   scroll-behavior: smooth;
@@ -59,29 +52,29 @@ body {
   line-height: 1.5;
 }
 
-/* Удаляем стандартную стилизацию для всех ul и il, у которых есть атрибут class*/
+
 ul[class],
 ol[class] {
   list-style: none;
 }
 
-/* Элементы a, у которых нет класса, сбрасываем до дефолтных стилей */
+
 a:not([class]) {
   text-decoration-skip-ink: auto;
 }
 
-/* Упрощаем работу с изображениями */
+
 img {
 
   display: block;
 }
 
-/* Указываем понятную периодичность в потоке данных у article*/
+
 article > * + * {
   margin-top: 1em;
 }
 
-/* Наследуем шрифты для инпутов и кнопок */
+
 input,
 button,
 textarea,
@@ -333,7 +326,7 @@ select {
 	margin: 0 10% 0 10%;
 }
 .colors{
-	margin-top: 100px;
+	margin: 100px 0 100px 0;
 	text-align: center;
 	
 }
